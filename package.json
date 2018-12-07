@@ -1,0 +1,19 @@
+{
+  "name": "angular-one-piece",
+  "version": "1.0.0",
+  "description": "angular workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yefcode/angular-one-piece.git"
+  },
+  "author": "Yeferson Marín yefcode@gmail.com github.com/yefcode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yefcode/angular-one-piece/issues"
+  },
+  "homepage": "https://github.com/yefcode/angular-one-piece#readme"
+}
