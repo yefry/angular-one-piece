@@ -4,140 +4,232 @@ export const ONE_PIECE_CHARACTER_LIST: OnePieceCharacter[] = [
     {
         name: 'Monkey D. Luffy',
         nickname: 'Mugiwara',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Roronoa Zoro'
+        name: 'Roronoa Zoro',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Vinsmoke Sanji'
+        name: 'Vinsmoke Sanji',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Nami'
+        name: 'Nami',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Ussop'
+        name: 'Ussop',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Nico Robin'
+        name: 'Nico Robin',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Franky'
+        name: 'Franky',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Brook'
+        name: 'Brook',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Jimbei'
+        name: 'Jimbei',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Akainu'
+        name: 'Akainu',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Aokiji'
+        name: 'Aokiji',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Arlong'
+        name: 'Arlong',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Bartholomew Kuma'
+        name: 'Bartholomew Kuma',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Blackbeard'
+        name: 'Blackbeard',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Boa Hancock'
+        name: 'Boa Hancock',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Bon Clay'
+        name: 'Bon Clay',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Buggy'
+        name: 'Buggy',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Caesar Clown'
+        name: 'Caesar Clown',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Cavendish'
+        name: 'Cavendish',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Coby'
+        name: 'Coby',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Sir Crocodile'
+        name: 'Sir Crocodile',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Curly Dadan'
+        name: 'Curly Dadan',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Django'
+        name: 'Django',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Dracule Mihawk'
+        name: 'Dracule Mihawk',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Don Quixote Doflamingo'
+        name: 'Don Quixote Doflamingo',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Don Quixote Rocinante'
+        name: 'Don Quixote Rocinante',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Eneru'
+        name: 'Eneru',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Mr. 3'
+        name: 'Mr. 3',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Gecko Moria'
+        name: 'Gecko Moria',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Gol D. Roger'
+        name: 'Gol D. Roger',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Hatchan'
+        name: 'Hatchan',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Helmeppo'
+        name: 'Helmeppo',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Kizaru'
+        name: 'Kizaru',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Monkey D. Dragon'
+        name: 'Monkey D. Dragon',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Monkey D. Garp'
+        name: 'Monkey D. Garp',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Nefeltari Vivi'
+        name: 'Nefeltari Vivi',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Portgaz D. Ace'
+        name: 'Portgaz D. Ace',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Sabo'
+        name: 'Sabo',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Sengoku'
+        name: 'Sengoku',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Shanks'
+        name: 'Shanks',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Silvers Rayleigh'
+        name: 'Silvers Rayleigh',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Smoker'
+        name: 'Smoker',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Tashigi'
+        name: 'Tashigi',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Trafalgar Law'
+        name: 'Trafalgar Law',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Whitebeard'
+        name: 'Whitebeard',
+        urlImage: '',
+        ability: ''
     },
     {
-        name: 'Tony Tony Chopper'
+        name: 'Tony Tony Chopper',
+        urlImage: '',
+        ability: ''
     }
 ];

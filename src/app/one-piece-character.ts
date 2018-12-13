@@ -5,11 +5,11 @@ export class OnePieceCharacter {
     nickname?: string;
     crew?: string;
     demonFruit?: DevilFruit;
-    /* urlImage: string; */
-    sexGender?: string;
-    /* ability: string; */
+    urlImage: string;
+    ability: string;
     power?: string; // TODO can be a class... it can be level too or punctuation
     reward?: number;
-    /* pirate?: boolean; */
-    /* marine?: boolean; */
+    pirate?: boolean;
+    marine?: boolean;
+    sexGender?: string;
 }
