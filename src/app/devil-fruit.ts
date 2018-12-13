@@ -1,4 +1,4 @@
-export class DemonFruit {
+export class DevilFruit {
     name: string;
     description: string;
     model?: string;

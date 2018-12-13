@@ -1,6 +1,6 @@
-import { DemonFruit } from './demon-fruit';
+import { DevilFruit } from './devil-fruit';
 
-export const DEMON_FRUIT: DemonFruit[] = [
+export const DEVIL_FRUIT: DevilFruit[] = [
     {
         name: 'Gomu Gomu no Mi',
         description: 'Gomu Gomu no Mi'
