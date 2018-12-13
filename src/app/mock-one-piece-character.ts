@@ -1,9 +1,9 @@
 import { OnePieceCharacter } from "./one-piece-character";
 
-export const ONEPIECECHARACTERLIST: OnePieceCharacter[] = [
+export const ONE_PIECE_CHARACTER_LIST: OnePieceCharacter[] = [
     {
         name: 'Monkey D. Luffy',
-        nickname: 'Mugiwara'
+        nickname: 'Mugiwara',
     },
     {
         name: 'Roronoa Zoro'
