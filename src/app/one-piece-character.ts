@@ -1,13 +1,15 @@
-import { DemonFruit } from './demon-fruit';
+import { DevilFruit } from './devil-fruit';
 
 export class OnePieceCharacter {
     name: string;
     nickname?: string;
     crew?: string;
-    demonFruit?: DemonFruit;
-    urlImage?: string;
+    demonFruit?: DevilFruit;
+    /* urlImage: string; */
     sexGender?: string;
+    /* ability: string; */
     power?: string; // TODO can be a class... it can be level too or punctuation
     reward?: number;
-    pirate?: boolean;
+    /* pirate?: boolean; */
+    /* marine?: boolean; */
 }
