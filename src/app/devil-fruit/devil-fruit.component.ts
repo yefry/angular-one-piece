@@ -3,7 +3,7 @@ import { DEVIL_FRUIT } from 'src/app/mock-devil-fruit';
 import { DevilFruit } from 'src/app/devil-fruit';
 
 @Component({
-  selector: 'app-devil-fruit',
+  selector: 'one-piece-devil-fruit',
   templateUrl: './devil-fruit.component.html',
   styleUrls: ['./devil-fruit.component.scss']
 })
