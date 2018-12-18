@@ -1,3 +1,5 @@
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -9,6 +11,7 @@ import { DevilFruitComponent } from './devil-fruit/devil-fruit.component';
 import { DevilFruitLogiaComponent } from './devil-fruit/devil-fruit-logia/devil-fruit-logia.component';
 import { DevilFruitParameciaComponent } from './devil-fruit/devil-fruit-paramecia/devil-fruit-paramecia.component';
 import { DevilFruitZoanComponent } from './devil-fruit/devil-fruit-zoan/devil-fruit-zoan.component';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { DevilFruitZoanComponent } from './devil-fruit/devil-fruit-zoan/devil-fr
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+ 	  AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
