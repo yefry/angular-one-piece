@@ -22,4 +22,9 @@ describe('OnePieceCharacterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it(`should have as title 'angular-one-piece'`, () => {
+    const app = fixture.debugElement.componentInstance;
+    expect(app.title).toEqual('One Piece');
+  });
 });
