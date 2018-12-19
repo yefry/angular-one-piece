@@ -1,5 +1,6 @@
 language: node_js
 dist: trusty
+sudo: required
 before_script:
   - npm install -g @angular/cli
 addons:
