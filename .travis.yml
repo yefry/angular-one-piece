@@ -1,7 +1,9 @@
+language: node_js
 dist: trusty
+before_script:
+  - npm install -g @angular/cli
 addons:
   chrome: stable
-language: node_js
 cache:
   directories:
     - "node_modules"
