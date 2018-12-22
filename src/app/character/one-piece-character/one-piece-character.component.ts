@@ -9,8 +9,8 @@ import { ONE_PIECE_CHARACTER_LIST } from 'src/app/mock-one-piece-character';
 })
 export class OnePieceCharacterComponent implements OnInit {
 
-  private title = 'One Piece';
-  private characters: OnePieceCharacter[] = ONE_PIECE_CHARACTER_LIST;
+  public title = 'One Piece';
+  public characters: OnePieceCharacter[] = ONE_PIECE_CHARACTER_LIST;
 
   constructor() { }
 

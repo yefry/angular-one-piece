@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharacterComponent implements OnInit {
 
-  private title = 'Created to explain error with repeated selector!';
+  public title = 'Created to explain error with repeated selector!';
 
   constructor() { }
 
