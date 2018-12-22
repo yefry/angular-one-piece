@@ -11,6 +11,8 @@ cache:
 script:
 - ng lint
 - ng build --prod --aot
+- ng test
+- npm run e2e
 branches:
   only:
     - master
