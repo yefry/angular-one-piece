@@ -9,8 +9,8 @@ import { DevilFruit } from 'src/app/devil-fruit';
 })
 export class DevilFruitComponent implements OnInit {
 
-  devilFruits: DevilFruit[] = DEVIL_FRUIT;
-  title: string = 'One Piece Devil Fruits';
+  private devilFruits: DevilFruit[] = DEVIL_FRUIT;
+  private title = 'One Piece Devil Fruits';
 
   constructor() { }
 

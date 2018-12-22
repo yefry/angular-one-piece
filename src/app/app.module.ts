@@ -27,7 +27,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase, 'angular-one-piece'),
- 	  AngularFirestoreModule
+    AngularFirestoreModule
   ],
   providers: [AngularFirestore],
   bootstrap: [AppComponent]
