@@ -11,7 +11,7 @@ cache:
 script:
 - ng lint
 - ng build --prod --aot
-- npm run test-headless
+- npm run test
 - npm run e2e
 branches:
   only:
