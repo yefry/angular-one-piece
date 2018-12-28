@@ -1,5 +1,5 @@
 export enum DevilFruitType {
-    Logia = 'LOGIA', 
+    Logia = 'LOGIA',
     Paramecia = 'PARAMECIA',
     Zoan = 'ZOAN'
 }

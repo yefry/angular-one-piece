@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class OnePieceService {
 
-  constructor( private angularDatabase: AngularFirestore ) { 
-      angularDatabase.collection('').valueChanges();
+  constructor( /* private angularDatabase: AngularFirestore */ ) {
+      /* angularDatabase.collection('').valueChanges(); */ // TODO IMPLEMENT
     }
 }

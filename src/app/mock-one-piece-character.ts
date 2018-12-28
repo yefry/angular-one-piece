@@ -1,4 +1,4 @@
-import { OnePieceCharacter } from "./one-piece-character";
+import { OnePieceCharacter } from './one-piece-character';
 
 export const ONE_PIECE_CHARACTER_LIST: OnePieceCharacter[] = [
     {

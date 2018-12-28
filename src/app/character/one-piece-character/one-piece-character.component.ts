@@ -9,14 +9,12 @@ import { ONE_PIECE_CHARACTER_LIST } from 'src/app/mock-one-piece-character';
 })
 export class OnePieceCharacterComponent implements OnInit {
 
-  title: string = 'One Piece';
-  characters: OnePieceCharacter[] = ONE_PIECE_CHARACTER_LIST;
+  public title = 'One Piece';
+  public characters: OnePieceCharacter[] = ONE_PIECE_CHARACTER_LIST;
 
   constructor() { }
 
   ngOnInit() {
   }
-
-  
 
 }
