@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { OnePieceCharacter } from 'src/app/one-piece-character';
-import { ONE_PIECE_CHARACTER_LIST } from 'src/app/mock-one-piece-character';
+import { Character } from 'src/app/one-piece-character';
+import { OnePieceService } from 'src/app/one-piece.service';
 
 @Component({
   selector: 'one-piece-character',
@@ -10,11 +10,12 @@ import { ONE_PIECE_CHARACTER_LIST } from 'src/app/mock-one-piece-character';
 export class OnePieceCharacterComponent implements OnInit {
 
   public title = 'One Piece';
-  public characters: OnePieceCharacter[] = ONE_PIECE_CHARACTER_LIST;
+  public characters: Character[] = [];
 
-  constructor() { }
+  constructor(private onePieceservice: OnePieceService) { }
 
   ngOnInit() {
+    this.onePieceservice.getCharacter().subscribe(characters => this.characters = characters);
   }
 
 }
