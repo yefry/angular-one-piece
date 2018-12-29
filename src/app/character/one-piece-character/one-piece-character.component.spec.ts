@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientModule } from '@angular/common/http';
 
 import { OnePieceCharacterComponent } from './one-piece-character.component';
+import { OnePieceService } from 'src/app/one-piece.service';
 
 describe('OnePieceCharacterComponent', () => {
   let component: OnePieceCharacterComponent;
@@ -8,9 +10,11 @@ describe('OnePieceCharacterComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OnePieceCharacterComponent ]
+      declarations: [OnePieceCharacterComponent],
+      providers: [OnePieceService],
+      imports: [HttpClientModule]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

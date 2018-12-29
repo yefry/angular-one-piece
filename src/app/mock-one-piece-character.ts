@@ -1,6 +1,6 @@
-import { OnePieceCharacter } from './one-piece-character';
+import { Character } from './character';
 
-export const ONE_PIECE_CHARACTER_LIST: OnePieceCharacter[] = [
+export const ONE_PIECE_CHARACTER_LIST: Character[] = [
     {
         name: 'Monkey D. Luffy',
         nickname: 'Mugiwara',

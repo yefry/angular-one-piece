@@ -1,6 +1,6 @@
 import { DevilFruit } from './devil-fruit';
 
-export class OnePieceCharacter {
+export class Character {
     name: string;
     nickname?: string;
     crew?: string;
