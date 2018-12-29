@@ -1,7 +1,7 @@
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Character } from './one-piece-character';
+import { Character } from './character';
 import { Observable } from 'rxjs';
 
 @Injectable({

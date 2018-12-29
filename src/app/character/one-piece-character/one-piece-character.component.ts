@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Character } from 'src/app/one-piece-character';
+import { Character } from 'src/app/character';
 import { OnePieceService } from 'src/app/one-piece.service';
 
 @Component({
